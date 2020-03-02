@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.rounded-circle {
+    width: 210px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+    text-decoration: underline;
+}
+
+.card {
+    width: 300px;
+    height: 580px;
+    color: black;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 200px;
+}
+
+.col img {
+    width: 100px;
+    height: 100px;
+}
+
+.btn {
+    width: auto;
+}
+
+.aboutme {
+    padding-left: 2em;
+    width: 600px;
+    margin-top: 2em;
+}
+
+.skills-list {
+    width: 700px;
+    padding: 30px;
+    color: black;
+    margin: auto;
+}
+
+footer {
+    color: white;
+}

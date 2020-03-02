@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.10.2/js/bootstrap.min.js"></script>
+    <title>Krithi's CV</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-3 active">
+                    <a class="nav-link" href="#about">About me</a>
+                </li>
+
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container-fluid">
+            <h2>About me</h2>
+
+            <div class="d-flex flex-wrap justify-content-center">
+
+                <div>
+
+                    <img src="images/me.jpg" class="rounded-circle pr-3" alt="">
+                </div>
+                <div class="aboutme">
+                    <p>Hi, my name is <strong>Krithi Kondana</strong>, an enthusiastic web developer living in Copenhagen. I am passionate towards building beautiful,responsive webapps and eager to adapt myself to new technologies. I describe myself as a
+                        great teamplayer, but also enjoys having individual responsibilities.</p>
+                    <p>I am almost to finish my full stack development course at <a href="https://www.hackyourfuture.dk/" target="_blank">Hack your future</a> coding school. I'm excited to be in the coding field.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <h2 id="portfolio">Portfolio</h2>
+        <div class="d-flex justify-content-center flex-wrap p-2 ">
+            <div class="p-2">
+                <div class="card">
+
+                    <img class="card-img-top" src="images/portfolio1.jpg" alt="lets play game image">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Fastest presser game</h4>
+                        <p class="card-text">This is a simple fun game where two users compete about who can press a key the most times within a set time! A user specifies how long time the game should be, and presses "start game!". It is about pressing either 'L' or 'S'
+                            on the keyboard. The user that has the highest number of keypresses after the time is up, wins. <a href="https://github.com/krithi-kondana/Fastest-presser-game" target="_blank">Read more</a></p>
+                        <a href="http://htmlpreview.github.io/?https://github.com/krithi-kondana/Fastest-presser-game/blob/master/fastestpresser.html" target="_blank" class="btn btn-info" role="button">Play game</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="p-2">
+                <div class="card">
+
+                    <img class="card-img-top" src="images/portfolio2.gif" alt="emoji image">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Giphy</h4>
+                        <p class="card-text">This app finds a gif using the searched word using the giphy api: <a href="https://developers.giphy.com/docs/" target="_blanck">https://developers.giphy.com</a>.The user can write some text indicating the gif he is looking for,
+                            click a button and then a gif will be found (using the searched word) and the gif will be displayed to the user. <a href="https://github.com/krithi-kondana/Giphy-search" target="_blank">Read more</a></p>
+                        <a href="http://htmlpreview.github.io/?https://github.com/krithi-kondana/Giphy-search/blob/master/gif.html" target="_blank" class="btn btn-info" role="button">Search gif</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="p-2">
+                <div class="card">
+
+                    <img class="card-img-top" src="images/portfolio3.jpg" alt="weather image">
+
+                    <div class="card-body">
+                        <h4 class="card-title">Weather app</h4>
+                        <p class="card-text">This app allows user to get weather details from current position as well as weather details from user defined city. I used current weather api from <a href="https://openweathermap.org/current" target="_blanck">https://openweathermap.org/current</a>                            to fetch the data. <a href="https://github.com/krithi-kondana/Weather-app" target="_blank">Read more</a> </p>
+                        <a href="http://htmlpreview.github.io/?https://github.com/krithi-kondana/Weather-app/blob/master/weatherapp.html" target="_blank" class="btn btn-info" role="button">Get weather details</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="container-fluid">
+        <h2 id="skills">Skills</h2>
+
+        <div class="skills-list">
+            <ul class="list-group">
+                <li class="list-group-item">Javascript - API, JSON, Promises, higher order functions</li>
+                <li class="list-group-item">Bootstrap-4</li>
+                <li class="list-group-item">HTML/CSS3 - Responsive design</li>
+                <li class="list-group-item">MySql</li>
+                <li class="list-group-item">Git</li>
+                <li class="list-group-item">Node JS - Express framework, postman, REST API</li>
+
+            </ul>
+        </div>
+
+        <div class="skills-icons">
+            <div class="row p-2">
+                <div class="col p-1">
+                    <img src="images/skill1.jpg" alt="logo">
+                </div>
+                <div class="col p-1">
+                    <img src="images/skill2.jpg" alt="logo">
+
+                </div>
+                <div class="col p-1">
+                    <img src="images/skill3.jpg" alt="logo">
+
+                </div>
+
+                <div class="col p-1">
+                    <img src="images/skill4.jpg" alt="logo">
+
+                </div>
+                <div class="col p-1">
+                    <img src="images/skill5.jpg" alt="logo">
+
+                </div>
+                <div class="col p-1">
+                    <img src="images/skill6.jpg" alt="logo">
+
+                </div>
+                <div class="col p-1">
+                    <img src="images/skill7.jpg" alt="logo">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="d-flex flex-wrap justify-content-center bg-dark p-2">
+                <div class="p-2 mr-auto"> <i class="fa fa-copyright">2020 krithikondana</i></div>
+
+                <div class="p-2"> <i class="fa fa-envelope">  krithi1789@gmail.com</i></div>
+                <div class="p-2"> <i class="fa fa-github">  https://github.com/krithi-kondana</i></div>
+                <div class="p-2"><i class="fa fa-linkedin">  www.linkedin.com/in/krithikondana</i></div>
+                <div class="p-2"> <i class="fa fa-phone">  +45 91826825</i></div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
