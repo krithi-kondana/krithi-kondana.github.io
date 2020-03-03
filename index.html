@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.10.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.10.2/js/bootstrap.min.js"></script> -->
     <title>Krithi's CV</title>
 </head>
 
@@ -97,8 +96,34 @@
                     <div class="card-body">
                         <h4 class="card-title">Weather app</h4>
                         <p class="card-text">This app allows user to get weather details from current position as well as weather details from user defined city. I used current weather api from <a href="https://openweathermap.org/current" target="_blanck">https://openweathermap.org/current</a>                            to fetch the data. <a href="https://github.com/krithi-kondana/Weather-app" target="_blank">Read more</a> </p>
-                        <a href="http://htmlpreview.github.io/?https://github.com/krithi-kondana/Weather-app/blob/master/weatherapp.html" target="_blank" class="btn btn-info" role="button">Get weather details</a>
+                        <!-- <a href="http://htmlpreview.github.io/?https://github.com/krithi-kondana/Weather-app/blob/master/weatherapp.html" target="_blank" class="btn btn-info" role="button">Get weather details</a> -->
+                        <!-- <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover" class="btn btn-info" role="button">Toggle popover</a> -->
+                        <div class="container">
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">
+                            Get current weather
+                          </button>
 
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Note: Github html preview does not support this.</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            Please go to the link below and clone or download weather-app repository to use the app. <a href="https://github.com/krithi-kondana/Weather-app" target="_blank">https://github.com/krithi-kondana/Weather-app</a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -174,6 +199,11 @@
 
         </div>
     </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
