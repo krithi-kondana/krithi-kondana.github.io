@@ -1,8 +1,11 @@
 body {
-    background: linear-gradient(to bottom, black 0%, rgb(163, 158, 158) 50%, black 100%);
+    background: linear-gradient(to bottom, black 23%, rgb(129, 126, 126) 40%, black 80%);
     color: white;
 }
-
+.nav-item:hover {
+    transition: transform .5s ease;
+    transform: scale(1.2);
+}
 .rounded-circle {
     width: 210px;
     height: 200px;
@@ -16,10 +19,14 @@ h2 {
 
 .card {
     width: 300px;
-    height: 580px;
+    height: 520px;
     color: black;
+    font-size: 13px;
 }
-
+.card:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
 .card-img-top {
     width: 300px;
     height: 200px;
@@ -44,6 +51,9 @@ h2 {
     color: black;
 }
 
-footer {
+footer, .social {
     color: white;
+}
+.social:hover {
+    color:rgb(185, 181, 181);
 }
